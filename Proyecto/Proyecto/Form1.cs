@@ -8,6 +8,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.EntityFrameworkCore;
 
 namespace Proyecto
 {
@@ -100,15 +101,17 @@ namespace Proyecto
 
         private void button1_Click(object sender, EventArgs e)
         {
+            var username = new DbLoggerCategory.Database();
             if ((textBox1.Text == "Correo electronico...") || (textBox2.Text == "Contraseña...") || (textBox1.Text == null) || (textBox2.Text == null))
             {
                 MessageBox.Show("Usuario invalido ", "Error", MessageBoxButtons.OK ,MessageBoxIcon.Exclamation);
             }
             else
             {
-                Lobby lobby = new Lobby();
+                if(textBox1.Text == )
+                /*Lobby lobby = new Lobby();
                 lobby.Show();
-                this.Hide();
+                this.Hide();*/
             }
             
             

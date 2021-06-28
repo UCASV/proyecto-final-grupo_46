@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NITRO 7\\Desktop\\pdf ciclo 3\\Proyecto Base de Datos Poo\\Proyecto\\Proyecto\\Proyecto.csproj": {}
+    "C:\\Users\\pao_r\\OneDrive\\Escritorio\\KR\\UCA\\BDD\\Repo Proyecto\\Proyecto\\Proyecto\\Proyecto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NITRO 7\\Desktop\\pdf ciclo 3\\Proyecto Base de Datos Poo\\Proyecto\\Proyecto\\Proyecto.csproj": {
+    "C:\\Users\\pao_r\\OneDrive\\Escritorio\\KR\\UCA\\BDD\\Repo Proyecto\\Proyecto\\Proyecto\\Proyecto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NITRO 7\\Desktop\\pdf ciclo 3\\Proyecto Base de Datos Poo\\Proyecto\\Proyecto\\Proyecto.csproj",
+        "projectUniqueName": "C:\\Users\\pao_r\\OneDrive\\Escritorio\\KR\\UCA\\BDD\\Repo Proyecto\\Proyecto\\Proyecto\\Proyecto.csproj",
         "projectName": "Proyecto",
-        "projectPath": "C:\\Users\\NITRO 7\\Desktop\\pdf ciclo 3\\Proyecto Base de Datos Poo\\Proyecto\\Proyecto\\Proyecto.csproj",
-        "packagesPath": "C:\\Users\\NITRO 7\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NITRO 7\\Desktop\\pdf ciclo 3\\Proyecto Base de Datos Poo\\Proyecto\\Proyecto\\obj\\",
+        "projectPath": "C:\\Users\\pao_r\\OneDrive\\Escritorio\\KR\\UCA\\BDD\\Repo Proyecto\\Proyecto\\Proyecto\\Proyecto.csproj",
+        "packagesPath": "C:\\Users\\pao_r\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pao_r\\OneDrive\\Escritorio\\KR\\UCA\\BDD\\Repo Proyecto\\Proyecto\\Proyecto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\NITRO 7\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\pao_r\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0-windows"
@@ -37,6 +37,22 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +71,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
