@@ -3,7 +3,7 @@ using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace Proyecto
+namespace Proyecto.Model
 {
     public partial class Create : Form
     {

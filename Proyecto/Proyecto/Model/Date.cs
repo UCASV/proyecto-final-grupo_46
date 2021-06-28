@@ -2,35 +2,23 @@
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace Proyecto
+namespace Proyecto.Model
 {
-    public partial class Lobby : Form
+    public partial class Date : Form
     {
-        public Lobby()
+        public Date()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-            throw new System.NotImplementedException();
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            Manage manage = new Manage();
-            manage.Show();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Create create = new Create();
-                        create.Show();
+           this.Hide();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Hide();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
@@ -44,7 +32,7 @@ namespace Proyecto
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
 
-        private void panel1_MouseDown(object sender, MouseEventArgs e)
+        private void Date_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);

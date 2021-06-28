@@ -1,4 +1,4 @@
-﻿namespace Proyecto
+﻿namespace Proyecto.Model
 {
     partial class Form1
     {

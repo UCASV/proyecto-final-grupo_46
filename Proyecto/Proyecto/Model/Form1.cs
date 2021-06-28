@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.EntityFrameworkCore;
 
-namespace Proyecto
+namespace Proyecto.Model
 {
     public partial class Form1 : Form
     {

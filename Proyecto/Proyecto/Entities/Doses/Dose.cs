@@ -13,6 +13,12 @@ namespace Proyecto.Entities.Doses
         //Foreign Keys
         public Effect Effects { get; set; }
         public TimeEffect TimeEffects { get; set; }
+
+        public Dose(DateTime date, DateTime time)
+        {
+            this.Date = date;
+            this.Time = time;
+        }
         
     }
 }

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Proyecto
+namespace Proyecto.Model
 {
     partial class Create
     {
