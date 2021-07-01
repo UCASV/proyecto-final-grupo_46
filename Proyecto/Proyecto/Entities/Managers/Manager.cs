@@ -1,4 +1,6 @@
-﻿namespace Proyecto.Entities.Managers
+﻿using Proyecto.Entities.Registers;
+
+namespace Proyecto.Entities.Managers
 {
     public class Manager
     {
